@@ -169,4 +169,4 @@ django-admin --version
 > one more bug to fix. <br>
 >  – Ellen Ullman
 
-Thank you for reading this and being part of this adventure! ![signboard](https://github.com/user-attachments/assets/937ca573-91d1-407e-8c64-bd4aaef8afde)
+Thank you for reading this and being part of this adventure! ![thanks](https://github.com/user-attachments/assets/20f0115c-b0ae-4711-8ea5-d502f71bbfb9)
