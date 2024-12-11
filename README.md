@@ -13,10 +13,10 @@
 The *Customer Feedback System* is an innovative solution designed to **gather**, **analyze**, and **manage** customer opinions effectively. This system empowers businesses to capture valuable insights from their customers. <br> <br>
 The system features an interface for customers to submit feedback, including comments, and suggestions. 
 
-## Key Features
-- User-Friendly UI: A simple and intuitive interface allows customers to provide comments and suggestions.
-- Automated Response: When submitting a form, a thank you email is sent to the customer.
-- Multi-Form: The customer can choose which type of form they would like to submit to the company.
+### Key Features
+- **User-Friendly UI**: A simple and intuitive interface allows customers to provide comments and suggestions.
+- **Automated Response**: When submitting a form, a thank you email is sent to the customer.
+- **Multi-Form**: The customer can choose which type of form they would like to submit to the company.
 
 # Built With
 [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
@@ -99,3 +99,48 @@ django-admin --version
    python manage.py runserver
    ```
 - Open your browser and visit: [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+
+# Functional Requirements
+### Planning & Design
+- Planning the Project
+- Website Design and Layout
+- Assigning of roles
+- Color Theme selection
+
+### User Authentication and Verification
+- Captcha
+- Input Boxes
+- Login and Sign-up
+
+### Feedback Collection
+- Customers can either submit a
+  - General Feedback Form
+  - Complaint Form
+  - Compliment Form
+
+### Data Validation
+- Required Fields on Forms
+- Required Captcha
+
+### Feedback Management and Storage
+- Submitted forms are stored in the database
+
+### Automated Response and Notifications
+- Automated Email is sent to the customer once their form has been submitted
+
+### Reporting and Analytics
+- Admin page where history of submissions can be seen
+
+
+# Documents
+### ERD
+
+
+### Gantt Chart
+
+
+> There is always <br>
+> one more bug to fix. <br>
+>  – Ellen Ullman
+
+Thank you for reading this and being part of this adventure!
