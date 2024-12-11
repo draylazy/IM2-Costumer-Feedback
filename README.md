@@ -17,3 +17,85 @@ The system features an interface for customers to submit feedback, including com
 - User-Friendly UI: A simple and intuitive interface allows customers to provide comments and suggestions.
 - Automated Response: When submitting a form, a thank you email is sent to the customer.
 - Multi-Form: The customer can choose which type of form they would like to submit to the company.
+
+# Built With
+[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://fonts.google.com/)
+
+
+# Getting Started
+
+### 1. Install Python  
+Django requires Python to run.
+
+1. Download Python from [Python.org](https://www.python.org/downloads/) and install it.
+2. During installation, check the option to **Add Python to PATH**.
+3. Verify the installation:
+   ```bash
+   python --version
+   ```
+   or
+   ```bash
+   python3 --version
+   ```
+
+### 2. Verify or Install pip (Python Package Manager)
+
+`pip` is the package manager for Python, typically included with Python 3.4+.
+
+- Check if pip is installed:
+  ```bash
+  pip --version
+  ```
+- If pip is not installed, run:
+  ```bash
+  python -m ensurepip --upgrade
+  ```
+
+### 3. Set Up a Virtual Environment (Optional but Recommended)
+
+Virtual environments help isolate dependencies for your project.
+
+- Create a virtual environment:
+  ```bash
+  python -m venv env
+  ```
+- Activate the virtual environment:
+  - **Windows**:
+    ```bash
+    .\env\Scripts\activate
+    ```
+  - **macOS/Linux**:
+    ```bash
+    source env/bin/activate
+    ```
+
+### 4. Install Django
+
+Install Django using pip:
+```bash
+pip install django
+```
+
+### 5. Verify Django Installation
+
+Check the Django version to confirm installation:
+```bash
+django-admin --version
+```
+
+- Navigate to the main project directory:
+   ```bash
+   cd mainpage
+   ```
+- Navigate to the `UI` directory:
+   ```bash
+   cd UI
+   ```
+- Run the development server:
+   ```bash
+   python manage.py runserver
+   ```
+- Open your browser and visit: [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
