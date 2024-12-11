@@ -131,31 +131,31 @@ django-admin --version
 ### ![report](https://github.com/user-attachments/assets/4f874cff-8f1a-41a0-8a34-2069b208f29e) Reporting and Analytics
 - ![benchmarking](https://github.com/user-attachments/assets/e1455c9a-c90d-44a2-b260-2c017d7ded3c) Admin page where history of submissions can be seen
 
-### Pages
-#### *Home page:*
+# ![website (1)](https://github.com/user-attachments/assets/d93cb5bf-b898-47a0-bc42-1f25634be5c8) Page Information
+#### ![house](https://github.com/user-attachments/assets/d8a43177-56cf-43c2-8db5-19f160bfadb2) *Home page:*
 - Button to Feedback page
 - Button to Complaint page
 - Button to Compliment page
 
-#### *Feedback page:*
+#### ![feedback](https://github.com/user-attachments/assets/3cb60844-3837-44ad-a499-bb01f5ee6ccc) *Feedback page:*
 - Input boxes for user information
 - Radio buttons
 - Captcha
 - Submit button
 
-#### *Complaint page:*
+#### ![bad](https://github.com/user-attachments/assets/bf6d3cf5-ef60-4769-b753-6bfd60d3df42) *Complaint page:*
 - Input boxes for user information
 - Radio buttons
 - Captcha
 - Submit button
 
-#### *Compliment page:*
+#### ![love](https://github.com/user-attachments/assets/6e9bd51c-289b-432a-82c5-86f923eb444a) *Compliment page:*
 - Input boxes for user information
 - Input box for compliment
 - Captcha
 - Submit button
 
-#### *Admin page:*
+#### ![software-engineer](https://github.com/user-attachments/assets/d50deced-64fd-4f7b-a6b3-b76d307ee5fc) *Admin page:*
 - Reporting and Analytics Feature
 
 # ![documents](https://github.com/user-attachments/assets/d89d4c1d-02de-4f46-9d74-c42912cc3b24) Documents
