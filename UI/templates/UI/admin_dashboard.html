@@ -49,6 +49,21 @@
             background-color: #c0392b; /* Darker shade on hover */
         }
 
+        logout_button {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          background-color: #fff;
+          color: #00008B;
+          font-size: 14px;
+          text-decoration: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+
         .container {
             width: 90%;
             max-width: 1200px;
@@ -190,7 +205,7 @@
     </style>
 </head>
 <body>
-    
+    <a href="{% url 'login' %}" class="logout_button">Log Out</a>
     <div class="container">
         <!-- Customer List Section -->
         <div class="section">
