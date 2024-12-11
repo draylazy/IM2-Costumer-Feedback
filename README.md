@@ -157,9 +157,13 @@ django-admin --version
 
 # ![documents](https://github.com/user-attachments/assets/d89d4c1d-02de-4f46-9d74-c42912cc3b24) Documents
 ### ERD
-
+[ERD](UI/Documents/ERD.png)
 
 ### Gantt Chart
+[Gantt Chart](UI/Documents/Gantt_Chart.png)
+
+### UI/UX
+[UI/UX](UI/Documents/UIUX.pdf)
 
 #
 > There is always <br>
