@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(to right, blue, purple);
+            color: #444;
+            line-height: 1.6;
+            padding-top: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        /* Login Button */
+        .login-btn {
+            margin-top: 15px;
+            padding: 12px 30px;
+            background-color: #ff5733; /* Button color */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-btn:hover {
+            background-color: #c0392b; /* Darker shade on hover */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 25px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for contrast */
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Customer Details Section Styling */
+        .customer-details {
+            background-color: #e7f3fe;
+            padding: 25px;
+            border-bottom: 2px solid #ddd;
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .customer-details p {
+            margin-bottom: 12px;
+        }
+
+        .customer-details strong {
+            color: #007bff;
+            font-size: 18px;
+        }
+
+        .customer-details h3 {
+            color: #0056b3;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        /* Feedback Section */
+        .feedback-section {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .feedback-section ul {
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .feedback-section li {
+            background-color: #fff;
+            padding: 18px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .feedback-section strong {
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        /* Feedback Labels */
+        .feedback-type-label {
+            padding: 8px 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .feedback-type-label.feedback {
+            background-color: #17a2b8;
+        }
+
+        .feedback-type-label.complaint {
+            background-color: #dc3545;
+        }
+
+        .feedback-type-label.compliment {
+            background-color: #28a745;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* No Data Message */
+        .no-data {
+            color: #777;
+            font-style: italic;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Customer List Section -->
+        <div class="section">
+            <header>
+                <h1>Admin Dashboard</h1>
+            </header>
+            <h2>Customer List and Feedback</h2>
+            <ul>
+                {% for customer in customers %}
+                    <li>
+                        <div class="customer-details">
+                            <h3>{{ customer.name }}</h3>
+                            <p><strong>Email:</strong> {{ customer.email }}</p>
+                            <p><strong>Occupation:</strong> {{ customer.occupation }}</p>
+                            <p><strong>Phone Number:</strong> {{ customer.phone_number }}</p>
+                        </div>
+
+                        <!-- Feedback for Each Customer -->
+                        <div class="feedback-section">
+                            <h3>Feedback:</h3>
+                            <ul>
+                            {% for feedback in feedbacks %}
+                                {% if feedback.customer == customer %}
+                                    <li>
+                                        <div class="feedback-type-label 
+                                            {% if feedback.feedback_type == 'complaint' %}complaint
+                                            {% elif feedback.feedback_type == 'compliment' %}compliment
+                                            {% else %}feedback{% endif %}">
+                                            {{ feedback.feedback_type|title }}
+                                        </div>
+
+                                        {% if feedback.compliment_feedback %}
+                                            <p><strong>Compliment:</strong> {{ feedback.compliment_feedback }}</p>
+                                        {% else %}
+                                            <strong>Question 1:</strong> {{ feedback.question_1 }}<br>
+                                            <strong>Question 2:</strong> {{ feedback.question_2 }}<br>
+                                            <strong>Question 3:</strong> {{ feedback.question_3 }}<br>
+                                            <strong>Question 4:</strong> {{ feedback.question_4 }}<br>
+                                            <strong>Question 5:</strong> {{ feedback.question_5 }}<br>
+                                            <strong>Question 6:</strong> {{ feedback.question_6 }}<br>
+                                            <strong>Question 7:</strong> {{ feedback.question_7 }}<br>
+                                            <strong>Question 8:</strong> {{ feedback.question_8 }}<br>
+                                            <strong>Question 9:</strong> {{ feedback.question_9 }}<br>
+                                            <strong>Question 10:</strong> {{ feedback.question_10 }}<br>
+                                        {% endif %}
+                                    </li>
+                                {% endif %}
+                            {% empty %}
+                                <li class="no-data">No feedback available for this customer.</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                {% empty %}
+                    <li class="no-data">No customers found.</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Admin Dashboard</p>
+    </footer>
+
+</body>
+</html>
