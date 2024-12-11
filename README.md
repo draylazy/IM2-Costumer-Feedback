@@ -1,4 +1,4 @@
-![Customer_Feedback](https://github.com/user-attachments/assets/c7a1dd34-de61-4b4b-817b-0e34e30ab215)
+![Customer_Feedback (1)](https://github.com/user-attachments/assets/c42a1758-0b84-434b-84f3-621da30bb5f0)
 
 CSIT327 - G5
 BSIT - 3
