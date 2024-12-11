@@ -90,10 +90,7 @@ django-admin --version
    ```bash
    cd mainpage
    ```
-- Navigate to the `UI` directory:
-   ```bash
-   cd UI
-   ```
+   
 - Run the development server:
    ```bash
    python manage.py runserver
