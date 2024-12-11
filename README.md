@@ -131,6 +131,32 @@ django-admin --version
 ### ![report](https://github.com/user-attachments/assets/4f874cff-8f1a-41a0-8a34-2069b208f29e) Reporting and Analytics
 - ![benchmarking](https://github.com/user-attachments/assets/e1455c9a-c90d-44a2-b260-2c017d7ded3c) Admin page where history of submissions can be seen
 
+### Pages
+#### *Home page:*
+- Button to Feedback page
+- Button to Complaint page
+- Button to Compliment page
+
+#### *Feedback page:*
+- Input boxes for user information
+- Radio buttons
+- Captcha
+- Submit button
+
+#### *Complaint page:*
+- Input boxes for user information
+- Radio buttons
+- Captcha
+- Submit button
+
+#### *Compliment page:*
+- Input boxes for user information
+- Input box for compliment
+- Captcha
+- Submit button
+
+#### *Admin page:*
+- Reporting and Analytics Feature
 
 # ![documents](https://github.com/user-attachments/assets/d89d4c1d-02de-4f46-9d74-c42912cc3b24) Documents
 ### ERD
@@ -143,4 +169,4 @@ django-admin --version
 > one more bug to fix. <br>
 >  – Ellen Ullman
 
-Thank you for reading this and being part of this adventure!
+Thank you for reading this and being part of this adventure! ![signboard](https://github.com/user-attachments/assets/937ca573-91d1-407e-8c64-bd4aaef8afde)
