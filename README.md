@@ -1,31 +1,31 @@
 ![Customer_Feedback (1)](https://github.com/user-attachments/assets/c42a1758-0b84-434b-84f3-621da30bb5f0)
 
-# Cebu Institute of Technology - University
-*CSIT327 - G5* <br>
-*BSIT - 3*
+# ![school (2)](https://github.com/user-attachments/assets/ca807c33-ae65-4eca-99fa-2c57a3d18ded) Cebu Institute of Technology - University
+![stack-of-books](https://github.com/user-attachments/assets/fa80d092-8a57-45a7-81cf-3d7f5a729daa) *CSIT327 - G5* <br>
+![graduation-hat](https://github.com/user-attachments/assets/6e2fb881-1084-4d8e-94ea-c8a6119ed249) *BSIT - 3*
 
-# Group Members
+# ![group](https://github.com/user-attachments/assets/72b77262-5970-427b-8af5-32ea9ed6b180) Group Members
 - Kenneth Jan T. Ambos
 - James Queddeng
 - Paul De Los Santos
 
-# About The Project
+# ![support](https://github.com/user-attachments/assets/3e5e59e9-1dfb-4b59-93f7-1559ed8e8111) About The Project
 The *Customer Feedback System* is an innovative solution designed to **gather**, **analyze**, and **manage** customer opinions effectively. This system empowers businesses to capture valuable insights from their customers. <br> <br>
 The system features an interface for customers to submit feedback, including comments, and suggestions. 
 
-### Key Features
-- **User-Friendly UI**: A simple and intuitive interface allows customers to provide comments and suggestions.
-- **Automated Response**: When submitting a form, a thank you email is sent to the customer.
-- **Multi-Form**: The customer can choose which type of form they would like to submit to the company.
+### ![key-chain (2)](https://github.com/user-attachments/assets/cd555c51-4ff7-431d-80a6-ee2320495cee) Key Features
+- ![support (1)](https://github.com/user-attachments/assets/1c546e5b-6028-4ccb-bc22-04ae88ce9359) **User-Friendly UI**: A simple and intuitive interface allows customers to provide comments and suggestions.
+- ![chatbot](https://github.com/user-attachments/assets/f8640424-d683-40dc-af66-e2d4c6d0e0a4) **Automated Response**: When submitting a form, a thank you email is sent to the customer.
+- ![multiple](https://github.com/user-attachments/assets/fc7908d9-c8d2-4435-b5ac-5b7571ffaff4) **Multi-Form**: The customer can choose which type of form they would like to submit to the company.
 
-# Built With
+# ![settings (1)](https://github.com/user-attachments/assets/ae00f572-7f09-47ea-a796-0908ca356c09) Built With
 [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://fonts.google.com/)
 
 
-# Getting Started
+# ![power](https://github.com/user-attachments/assets/a926c297-4877-4fcf-93bc-f28d10fc4b46) Getting Started
 
 ### 1. Install Python  
 Django requires Python to run.
@@ -100,39 +100,39 @@ django-admin --version
    ```
 - Open your browser and visit: [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-# Functional Requirements
-### Planning & Design
-- Planning the Project
-- Website Design and Layout
-- Assigning of roles
-- Color Theme selection
+# ![checklist](https://github.com/user-attachments/assets/cd8ca616-7856-437e-b09b-2c50559047b6) Functional Requirements
+### ![web-design (3)](https://github.com/user-attachments/assets/ebf1d6a3-e828-4a08-b39c-274e329ee92c) Planning & Design
+- ![team-meeting](https://github.com/user-attachments/assets/37ea0ebd-b2c0-412e-8e45-452e146f7d7a) Planning the Project
+- ![web-design (1)](https://github.com/user-attachments/assets/a618bfc1-e6c0-44f2-8500-ecddd8d07fbc) Website Design and Layout
+- ![assign](https://github.com/user-attachments/assets/5f8ac9e1-da90-4011-82f2-8a5f2bf95776) Assigning of roles
+- ![app](https://github.com/user-attachments/assets/c40b22fb-a09c-4615-bcb8-9801ab389f11) Color Theme selection
 
-### User Authentication and Verification
-- Captcha
-- Input Boxes
-- Login and Sign-up
+### ![authentication (1)](https://github.com/user-attachments/assets/0186692d-eadb-44a8-af1a-159b0574111d) User Authentication and Verification
+- ![captcha](https://github.com/user-attachments/assets/ace074aa-cef7-4cd7-ad9c-4db2e8c8908f) Captcha
+- ![input](https://github.com/user-attachments/assets/c6932dab-23aa-4af3-9b2e-08f629dbe8dd) Input Boxes
+- ![login](https://github.com/user-attachments/assets/d6bb77e3-2623-4c59-8acc-957bfc59c570) Login and Sign-up
 
-### Feedback Collection
+### ![data-collection (1)](https://github.com/user-attachments/assets/300f4831-7809-443d-a15f-2a0266f16e40) Feedback Collection
 - Customers can either submit a
-  - General Feedback Form
-  - Complaint Form
-  - Compliment Form
+  - ![document](https://github.com/user-attachments/assets/b7ca02cf-c007-49eb-8723-803d546ebc36) General Feedback Form
+  - ![complaint](https://github.com/user-attachments/assets/66cf7999-ff7c-40ea-8455-53f1d207c46a) Complaint Form
+  - ![directions](https://github.com/user-attachments/assets/1976509a-54e0-40a6-949f-94c2552d860a) Compliment Form
 
-### Data Validation
-- Required Fields on Forms
-- Required Captcha
+### ![data-audit (1)](https://github.com/user-attachments/assets/c51d5d07-3bb5-4481-8f7f-611d29e81f43) Data Validation
+- ![medical](https://github.com/user-attachments/assets/4b2e640d-0f88-4de1-b5d4-0e3a69f8f9b7) Required Fields on Forms
+- ![captcha](https://github.com/user-attachments/assets/ace074aa-cef7-4cd7-ad9c-4db2e8c8908f) Required Captcha
 
-### Feedback Management and Storage
-- Submitted forms are stored in the database
+### ![project-manager](https://github.com/user-attachments/assets/2e3d6f03-ef8a-4734-8793-26ecbb34aaaf) Feedback Management and Storage
+- ![database](https://github.com/user-attachments/assets/69254b5f-51b9-4577-ad2d-c84804119122) Submitted forms are stored in the database
 
-### Automated Response and Notifications
-- Automated Email is sent to the customer once their form has been submitted
+### ![auto-reply](https://github.com/user-attachments/assets/2cfa31ed-5508-4311-94f3-bdbc186a057c) Automated Response and Notifications
+- ![email](https://github.com/user-attachments/assets/74827bf2-a28c-49ea-a8d3-34f55296bf1c) Automated Email is sent to the customer once their form has been submitted
 
-### Reporting and Analytics
-- Admin page where history of submissions can be seen
+### ![report](https://github.com/user-attachments/assets/4f874cff-8f1a-41a0-8a34-2069b208f29e) Reporting and Analytics
+- ![benchmarking](https://github.com/user-attachments/assets/e1455c9a-c90d-44a2-b260-2c017d7ded3c) Admin page where history of submissions can be seen
 
 
-# Documents
+# ![documents](https://github.com/user-attachments/assets/d89d4c1d-02de-4f46-9d74-c42912cc3b24) Documents
 ### ERD
 
 
