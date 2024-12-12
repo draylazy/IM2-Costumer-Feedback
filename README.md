@@ -130,6 +130,10 @@ django-admin --version
 - ![benchmarking](https://github.com/user-attachments/assets/e1455c9a-c90d-44a2-b260-2c017d7ded3c) Admin page where history of submissions can be seen
 
 # ![website (1)](https://github.com/user-attachments/assets/d93cb5bf-b898-47a0-bc42-1f25634be5c8) Page Information
+#### ![password (1)](https://github.com/user-attachments/assets/10df7ebc-8835-49d5-9b71-3f5634ded621) *Login/Signup:*
+- Input boxes for user information
+- Database integration
+
 #### ![house](https://github.com/user-attachments/assets/d8a43177-56cf-43c2-8db5-19f160bfadb2) *Home page:*
 - Button to Feedback page
 - Button to Complaint page
@@ -153,10 +157,6 @@ django-admin --version
 - Input box for compliment
 - Captcha
 - Submit button
-
-#### ![password (1)](https://github.com/user-attachments/assets/10df7ebc-8835-49d5-9b71-3f5634ded621) *Login/Signup:*
-- Input boxes for user information
-- Database integration
 
 #### ![software-engineer](https://github.com/user-attachments/assets/d50deced-64fd-4f7b-a6b3-b76d307ee5fc) *Admin page:*
 - Reporting and Analytics Feature
