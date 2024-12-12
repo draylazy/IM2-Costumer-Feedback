@@ -134,6 +134,7 @@ django-admin --version
 - Button to Feedback page
 - Button to Complaint page
 - Button to Compliment page
+- Button to Logout
 
 #### ![feedback](https://github.com/user-attachments/assets/3cb60844-3837-44ad-a499-bb01f5ee6ccc) *Feedback page:*
 - Input boxes for user information
@@ -153,8 +154,13 @@ django-admin --version
 - Captcha
 - Submit button
 
+#### ![password (1)](https://github.com/user-attachments/assets/10df7ebc-8835-49d5-9b71-3f5634ded621) *Login/Signup:*
+- Input boxes for user information
+- Database integration
+
 #### ![software-engineer](https://github.com/user-attachments/assets/d50deced-64fd-4f7b-a6b3-b76d307ee5fc) *Admin page:*
 - Reporting and Analytics Feature
+
 
 # ![documents](https://github.com/user-attachments/assets/d89d4c1d-02de-4f46-9d74-c42912cc3b24) Documents
 ### ERD
